@@ -1,0 +1,8 @@
+功能描述：
+	对三个数据文件建立笛卡尔表，按照要求查找并列出所需数据。
+开发环境：
+	ubuntu-19.10
+	gcc 9.2.1
+测试DEMO:
+	用gcc -Wall os.c -o os对代码os.c进行编译得到os
+	用./os customer.txt orders.txt lineitem.txt 1 BUILDING 1995-03-29 1995-03-27 5执行os得到结果
